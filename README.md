@@ -44,16 +44,16 @@ Developed by: ABRIN NISHA A
 RegisterNumber: 22008695
 
 ## Half adder program:
-``
+
 module fulladd (a,b,sum,carry);
 input a,b;
 output sum,carry;
 assign sum = (a^b);
 assign carry = (a&b);
 endmodule
-``
+
 ## Full adder program:
-``
+
 module fulladd (a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
